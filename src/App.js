@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/header';
 import Login from './components/login';
 import Footer from './components/footer';
-import Banner from './components/banner';
+// import Banner from './components/banner';
 import Department from './components/department';
 import Trending from './components/trending';
 import SpecialOffer from './components/specialOffer/specialOffer';
@@ -19,7 +19,7 @@ function App() {
       <Header/>
       <Login/>
       {userInfo ? <>
-        <Banner/>
+        {/* <Banner/> */}
         <Department/>
         <Trending/>
         <SpecialOffer/>
